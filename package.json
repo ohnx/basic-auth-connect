@@ -1,21 +1,12 @@
 {
-  "name": "basic-auth-connect",
+  "name": "basic-auth-connect-ohnx-fork",
   "description": "Basic auth middleware for node and connect",
   "version": "1.0.0",
-  "author": {
-    "name": "Jonathan Ong",
-    "email": "me@jongleberry.com",
-    "url": "http://jongleberry.com",
-    "twitter": "https://twitter.com/jongleberry"
-  },
+  "author": "Mason X <me@masonx.ca> (http://masonx.ca)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expressjs/basic-auth-connect.git"
-  },
-  "bugs": {
-    "mail": "me@jongleberry.com",
-    "url": "https://github.com/expressjs/basic-auth-connect/issues"
+    "url": "git+https://github.com/ohnx/basic-auth-connect.git"
   },
   "devDependencies": {
     "mocha": "*",
@@ -25,5 +16,13 @@
   },
   "scripts": {
     "test": "make test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ohnx/basic-auth-connect/issues"
+  },
+  "homepage": "https://github.com/ohnx/basic-auth-connect#readme",
+  "main": "index.js",
+  "keywords": [
+    "basic-auth-connect"
+  ]
 }
